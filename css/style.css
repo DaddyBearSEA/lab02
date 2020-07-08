@@ -1,10 +1,16 @@
 /* this is my personal CSS */
+/* I'm certainly not done playing and tweaking */
 
+
+/* html {
+  background-image: url("img/banff.jpg");
+} */
 
 body{
   max-width: 960px;
   margin: auto;
   background-color: skyblue;
+ 
   /* outline: dotted;
   outline-color: blue;
   outline-width: 5px; */
@@ -86,8 +92,6 @@ p{
   padding: 25px;
   background-color: linen;
   border-radius: 25px;
- 
-
 
 }
 
@@ -98,11 +102,6 @@ p{
   padding: 25px;
   background-color: linen;
   border-radius: 25px;
- 
-
-
-
-
 }
 
 
