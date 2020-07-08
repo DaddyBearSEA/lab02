@@ -60,6 +60,7 @@ if (userEmailAnswer === 'y' || userEmailAnswer ==='Y'){
 // Question 4 Are you a fellow Codefellower? Y/n
 
 var fellowCodeBuddy = prompt('Are you a fellow Codefellower? (y/n)');
+
 if (fellowCodeBuddy === 'y'){
   alert('Hi ' + nameOfUser + 'Make sure you leave feedback in slack for me.');
 }else {
@@ -77,7 +78,7 @@ var colorBlindAnswer = prompt('Are you color blind (y/n)?');
 
 if (colorBlindAnswer === 'y' || colorBlindAnswer === 'Y'){
   alert('I\'ll change my website for you');
-  alert('I need to find this code to do this - later');
+  alert('I need to find this code to do this - Enjoy');
 } else {
   alert('You may continue with current settings.');
 }
