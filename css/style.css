@@ -1,26 +1,98 @@
 /* this is my personal CSS */
 
-* {
-  outline: dotted;
-  outline-color: blue;
-  outline-width: 5px;
-}
 
 body{
   max-width: 960px;
   margin: auto;
+  background-color: skyblue;
+  /* outline: dotted;
+  outline-color: blue;
+  outline-width: 5px; */
 
 }
+
+h1{
+  font-size: xx-large;
+  text-align: left;
+}
+h2{
+  font-size: x-large;
+  text-align: left;
+
+}
+
+
+h3{
+  text-align: left;
+  font-size: large;
+  color: blue;
+  text-shadow: cadetblue;
+}
+
+h4{
+  font-size: medium;
+  text-align: left;
+}
+
+
 
 header {
-  outline-width: 20px;
-  outline-style: dashed;
+  /* outline-width: 20px;
+  outline-style: dashed; */
   float: left;
+  padding: 25px;
+  background-color: linen;
+  border-radius: 25px;
 }
 header > div{
-  text-align: center;
-}
-header > img{
-  align-content: right;
+  text-align: left;
+  margin: 15, 10, 2, 10;
+  border-spacing: 25px;
+  padding: 10px;
+  
 }
 
+h3{
+  text-align: left;
+  font-size: large;
+  color: blue;
+  text-shadow: cadetblue;
+}
+
+header img{
+  vertical-align: middle;
+  float: right;
+  padding: 25px;
+  
+}
+
+header > main {
+  text-align: justify;
+  color: blue;
+  padding: 25px;
+}
+
+p{
+  margin: 10px;
+  color: black;
+  text-align: justify;
+}
+.education{
+  color: rgb(116, 93, 138);
+  background-color: rgb(224, 146, 44);
+  outline-color: blue;
+  outline-width: 5px;
+}
+
+
+
+.experience{
+  color: blueviolet;
+  background-color: burlywood;
+}
+
+
+.goals {
+  color: black;
+  background-color: tomato;
+}
