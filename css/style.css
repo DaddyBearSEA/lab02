@@ -15,11 +15,6 @@ h1{
   font-size: xx-large;
   text-align: left;
 }
-h2{
-  font-size: x-large;
-  text-align: left;
-
-}
 
 
 h3{
@@ -34,7 +29,7 @@ h4{
   text-align: left;
 }
 
-
+/* Begin Header */
 
 header {
   /* outline-width: 20px;
@@ -52,7 +47,7 @@ header > div{
   
 }
 
-h3{
+h2{
   text-align: left;
   font-size: large;
   color: blue;
@@ -77,22 +72,49 @@ p{
   color: black;
   text-align: justify;
 }
+
+
+/* End Header */
+
+/*Begin sections */
+
+
+
 .education{
   color: rgb(116, 93, 138);
-  background-color: rgb(224, 146, 44);
-  outline-color: blue;
-  outline-width: 5px;
+  float: left;
+  padding: 25px;
+  background-color: linen;
+  border-radius: 25px;
+ 
+
+
 }
-
-
 
 .experience{
   color: blueviolet;
   background-color: burlywood;
+  float: left;
+  padding: 25px;
+  background-color: linen;
+  border-radius: 25px;
+ 
+
+
+
+
 }
 
 
 .goals {
   color: black;
   background-color: tomato;
+  float: left;
+  padding: 25px;
+  background-color: linen;
+  border-radius: 25px;
+ 
+
 }
+
+/* End Sections */
