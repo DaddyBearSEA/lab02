@@ -1,8 +1,26 @@
 /* this is my personal CSS */
 
-
-h1 {
-  font-size: large;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #201d65;
+* {
+  outline: dotted;
+  outline-color: blue;
+  outline-width: 5px;
 }
+
+body{
+  max-width: 960px;
+  margin: auto;
+
+}
+
+header {
+  outline-width: 20px;
+  outline-style: dashed;
+  float: left;
+}
+header > div{
+  text-align: center;
+}
+header > img{
+  align-content: right;
+}
+

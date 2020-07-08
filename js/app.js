@@ -1,27 +1,6 @@
 // this is my Javascript for Lab02
 'use strict'
 
-// Prompt the user a total of exactly five yes or no questions. The user input for the answer must accept either y/n or yes/no responses while taking into consideration case sensitivity by normalizing the user input so that it can be validated (hint: look into the .toUpperCase() or .toLowerCase() functions). Be sure to let the user know if they answered the question correctly by alerting them with a response.
-//Add console.log() messages within your app to notify the user if they are correct. Before submitting, comment out (don’t delete) your console.log() messages and replace them with the alerts() to complete the project.
-
-// As a user, I would like a personalized welcome message so that I feel like I am interacting with the site owner.
-
-// Ask the user their name through a prompt()
-
-// Display that name back to the user through a custom greeting welcoming them to your site.
-
-// Display the user’s name back to them in your final message to the user.
-
-// Developer Style Guide
-// A style guide is a series of standards and practices that must be followed in order for your code to be accepted by the team. This can include variable naming, file structure, and process. Below is a list of practices that you will be required to follow within this lab:
-
-// Your JS file must contain a 'use strict' declaration at the top, and your javascript file must be linked in your html file as an external script file.
-
-// Make sure that all code is cleanly written with correct indentation and syntax. Look at examples online and in your textbook. Note that your JS must pass the rules in the linter that we installed.
-
-// Follow the Add, Commit, Push process. It should be evident in GitHub that commits are made regularly, and with good commit messages that explain the WHY of the commit.
-
-
 
 /* Question 1 Ask the User's Name  nameOfUser */
 
@@ -35,7 +14,7 @@
 
 //  Question 2 Hello nameofUser Are you a potential employer?  y/n
 
-var ruaEmployer = prompt('Are you a potential employer? (y/n)');
+var ruaEmployer = prompt('A   re you a potential employer? (y/n)');
 
   if (ruaEmployer === 'y' || ruaEmployer==='Y') {
     alert('Welcome to my site!');
@@ -61,10 +40,10 @@ if (userEmailAnswer === 'y' || userEmailAnswer ==='Y'){
 
 var fellowCodeBuddy = prompt('Are you a fellow Codefellower? (y/n)');
 
-if (fellowCodeBuddy === 'y'){
+if (fellowCodeBuddy === 'y' || fellowCodeBuddy === 'Y'){
   alert('Hi ' + nameOfUser + 'Make sure you leave feedback in slack for me.');
-}else {
-  alert('See you Later! You have nothing to see here!')
+}else (fellowCodeBuddy === 'n' || fellowCodeBuddy === 'N') {
+  alert('See you Later! You have nothing to see here!');
   window.location.replace('https://tenor.com/view/futurama-hypnotoad-hypnotic-hypno-all-hail-hypnotoad-gif-3690710');
 
 }
