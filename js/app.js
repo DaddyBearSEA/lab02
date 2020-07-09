@@ -64,15 +64,18 @@ console.log(userEmailAnswer);
 
 // Question 5 Are you color blind? y/n  if yes change the CSS to color blindness css 
 
-/*var colorBlindAnswer = prompt('Are you color blind (y/n)?');
+var colorBlindAnswer = prompt('Are you color blind (y/n)?');
 
+function colorBlindAsk() {
 if (colorBlindAnswer === 'y' || colorBlindAnswer === 'Y'){
   alert('I\'ll change my website for you');
   alert('I need to find this code to do this - Enjoy');
 } else {
   alert('You may continue with current settings.');
-}*/
-
+}
+}
+colorBlindAsk();
+console.log(colorBlindAnswer);
 
 // •	Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
 // •	Indicates through an alert if the guess is “too high” or “too low”.
