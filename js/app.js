@@ -14,13 +14,12 @@
 
 //  Question 2 Hello nameofUser Are you a potential employer?  y/n
 
-var ruaEmployer = prompt('Are you a potential employer? (y/n)');
-var employerAnswer = ruaEmployer.toLowerCase();
-  console.log('should be lower case?  ' + employerAnswer);
-
+var employerAnswer = prompt('Are you a potential employer? (y/n)').toLowerCase();
+//  console.log('should be lower case?  ' + employerAnswer);
+function isEmployer() {
   while (employerAnswer ==='y' && employerAnswer ==='n');{
     console.log(employerAnswer);
-    employerAnswer =prompt('Please answer with a y or n lowercase!');
+    //employerAnswer = ('Please answer with a y or n lowercase!');
   }
 
   if (employerAnswer === 'y') {
@@ -30,7 +29,9 @@ var employerAnswer = ruaEmployer.toLowerCase();
     alert('What can I help you with?');
     console.log(employerAnswer);
   }
-
+}
+isEmployer();
+console.log(employerAnswer);
 
 //  Question 3 May I have your email? y/n
 
