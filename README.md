@@ -12,3 +12,5 @@ Any Links you used as reference
 
 ### Reflections and Comments
 I understand the process of getting the structure/scaffolding and then links working then actually writing up the code.  It's just getting it done!
+
+#### Michael Mandell was the navigator; Mike Wohl was the driver. Worked on wrapping Michael's questions in functions.
