@@ -14,22 +14,22 @@
 
 //  Question 2 Hello nameofUser Are you a potential employer?  y/n
 
-// var ruaEmployer = prompt('Are you a potential employer? (y/n)');
-// var employerAnswer = ruaEmployer.toLowerCase();
-//   console.log('should be lower case?  ' + employerAnswer);
+var ruaEmployer = prompt('Are you a potential employer? (y/n)');
+var employerAnswer = ruaEmployer.toLowerCase();
+  console.log('should be lower case?  ' + employerAnswer);
 
-//   while (employerAnswer ==='y' && employerAnswer ==='n');{
-//     console.log(employerAnswer);
-//     employerAnswer =prompt('Please answer with a y or n lowercase!');
-//   }
+  while (employerAnswer ==='y' && employerAnswer ==='n');{
+    console.log(employerAnswer);
+    employerAnswer =prompt('Please answer with a y or n lowercase!');
+  }
 
-//   if (employerAnswer === 'y') {
-//     alert('Welcome to my site!');
-//     console.log(employerAnswer);
-//   }else if (employerAnswer === 'n');{
-//     alert('What can I help you with?');
-//     console.log(employerAnswer);
-//   }
+  if (employerAnswer === 'y') {
+    alert('Welcome to my site!');
+    console.log(employerAnswer);
+  }else if (employerAnswer === 'n');{
+    alert('What can I help you with?');
+    console.log(employerAnswer);
+  }
 
 
 //  Question 3 May I have your email? y/n
@@ -70,9 +70,55 @@ if (colorBlindAnswer === 'y' || colorBlindAnswer === 'Y'){
 }
 
 
-// Question 6 Pick a number between 1 and 5 ? That the number I choose or that's not between 1 and 5 silly nameOfUser
+// •	Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
+// •	Indicates through an alert if the guess is “too high” or “too low”.
+// •	It should give the user exactly four opportunities to get the correct answer.
+// •	After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
 
-var pickNumber = prompt('Pick a number between 1 and 5');
+// you have a number set to 4.  You ask a prompt for a number between 1 and 5
+// you cycle through using a counter 5 times if needed
+
+  
+// var correctAnswer = '4'
+// var pickNumber = prompt('Pick a number between 1- 5');
+// alert('correct answer')
+// console.log(correctAnswer)
+
+// if (pickNumber === correctAnswer);{
+//   alert('Yes you are correct');
+//   console.log(pickNumber)
+// }else if (pickNumber !-- correctAnswer);{
+//   alert('No you are wrong!')
+//   console.log (pickNumber);
+// }
+
+
+
+
+
+// for (var i = 0; i = 4; i++) {
+// }
+
+// while (correctAnswer) {
+//   console.log(correctAnswer);
+// }
+// if (pickNumber === '4' && correctAnswer === '4') {
+//   alert("Correct Number");
+//   console.log('You picked: ' + pickNumber + ' Correct Answer was ' + correctAnswer);
+// } else {
+//   alert('wrong try again!');
+//   console.log('You picked: ' + pickNumber + ' Correct Answer was ' + correctAnswer);
+// }
+
+
+// •	Add a 7th question that has multiple possible correct answers that are stored in an array.
+// •	Give the user 6 attempts to guess the correct answer.
+// •	The guesses will end once the user guesses a correct answer or they run out of attempts.
+// •	Display all the possible correct answers to the user.
+// •	Consider using a loop of some sort for this question.
+
+
+
 
 switch(pickNumber){
   case '1':
