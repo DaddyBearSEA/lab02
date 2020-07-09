@@ -14,42 +14,42 @@
 
 //  Question 2 Hello nameofUser Are you a potential employer?  y/n
 
-var ruaEmployer = prompt('Are you a potential employer? (y/n)');
-var employerAnswer = ruaEmployer.toLowerCase();
-  console.log('should be lower case?  ' + employerAnswer);
+// var ruaEmployer = prompt('Are you a potential employer? (y/n)');
+// var employerAnswer = ruaEmployer.toLowerCase();
+//   console.log('should be lower case?  ' + employerAnswer);
 
-  while (employerAnswer ==='y' && employerAnswer ==='n');{
-    console.log(employerAnswer);
-    employerAnswer =prompt('Please answer with a y or n lowercase!');
-  }
+//   while (employerAnswer ==='y' && employerAnswer ==='n');{
+//     console.log(employerAnswer);
+//     employerAnswer =prompt('Please answer with a y or n lowercase!');
+//   }
 
-  if (employerAnswer === 'y') {
-    alert('Welcome to my site!');
-    console.log(employerAnswer);
-  }else if (employerAnswer === 'n');{
-    alert('What can I help you with?');
-    console.log(employerAnswer);
-  }
+//   if (employerAnswer === 'y') {
+//     alert('Welcome to my site!');
+//     console.log(employerAnswer);
+//   }else if (employerAnswer === 'n');{
+//     alert('What can I help you with?');
+//     console.log(employerAnswer);
+//   }
 
 
 //  Question 3 May I have your email? y/n
 
-// var userEmailAnswer = prompt('May I have your email (y/n)?');
+var userEmailAnswer = prompt('May I have your email (y/n)?');
 
-// if (userEmailAnswer === 'y' || userEmailAnswer ==='Y'){
-//   alert('Thank you ' + nameOfUser);
-//   var userEmail = prompt('What is your email?');
-// }else {
-//   alert('OK - Enjoy my site');
-// }
+if (userEmailAnswer === 'y' || userEmailAnswer ==='Y'){
+  alert('Thank you ' + nameOfUser);
+  var userEmail = prompt('What is your email?');
+}else {
+  alert('OK - Enjoy my site');
+}
 
-// Question 4 Are you a fellow Codefellower? Y/n
+// Question 4 Are you a fellow Codefellower? Y/n  Incomplete
 
 // var fellowCodeBuddy = prompt('Are you a fellow Codefellower? (y/n)');
 
 // if (fellowCodeBuddy === 'y' || fellowCodeBuddy === 'Y'){
-//   alert('Hi ' + nameOfUser + 'Make sure you leave feedback in slack for me.');
-// }else (fellowCodeBuddy === 'n' || fellowCodeBuddy === 'N') {
+//   alert('Hi ' + nameOfUser + '! Make sure you leave feedback in slack for me.');
+// }else (fellowCodeBuddy === 'n' || fellowCodeBuddy === 'N'); {
 //   alert('See you Later! You have nothing to see here!');
 //   window.location.replace('https://tenor.com/view/futurama-hypnotoad-hypnotic-hypno-all-hail-hypnotoad-gif-3690710');
 
@@ -60,35 +60,38 @@ var employerAnswer = ruaEmployer.toLowerCase();
 
 // Question 5 Are you color blind? y/n  if yes change the CSS to color blindness css 
 
-// var colorBlindAnswer = prompt('Are you color blind (y/n)?');
+var colorBlindAnswer = prompt('Are you color blind (y/n)?');
 
-// if (colorBlindAnswer === 'y' || colorBlindAnswer === 'Y'){
-//   alert('I\'ll change my website for you');
-//   alert('I need to find this code to do this - Enjoy');
-// } else {
-//   alert('You may continue with current settings.');
-// }
+if (colorBlindAnswer === 'y' || colorBlindAnswer === 'Y'){
+  alert('I\'ll change my website for you');
+  alert('I need to find this code to do this - Enjoy');
+} else {
+  alert('You may continue with current settings.');
+}
 
 
 // Question 6 Pick a number between 1 and 5 ? That the number I choose or that's not between 1 and 5 silly nameOfUser
 
-// var pickNumber = prompt('Pick a number between 1 and 5');
+var pickNumber = prompt('Pick a number between 1 and 5');
 
-// switch(pickNumber){
-//   case '1':
-//     alert('Try again later');
-//     break;
-//   case '2':
-//     alert('Better luck tomorrow');
-//     break;
-//   case '3':
-//     alert('Yes - thats my number!');
-//     break;
-//   case '4':
-//     alert('Nope');
-//     break;
-//   case '5':
-//     alert('Oh so close!');
-//     break;
+switch(pickNumber){
+  case '1':
+    alert('Try again later');
+    break;
+  case '2':
+    alert('Better luck tomorrow');
+    break;
+  case '3':
+    alert('Yes - thats my number!');
+    break;
+  case '4':
+    alert('Nope');
+    break;
+  case '5':
+    alert('Oh so close!');
+    break;
 
-// }
+}
+
+
+
