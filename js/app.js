@@ -35,14 +35,17 @@ console.log(employerAnswer);
 
 //  Question 3 May I have your email? y/n
 
-var userEmailAnswer = prompt('May I have your email (y/n)?');
+var userEmailAnswer = prompt('May I have your email (y/n)?').toLowerCase();
 
-if (userEmailAnswer === 'y' || userEmailAnswer ==='Y'){
+function answerEmail() {
+  if (userEmailAnswer === 'y') {
   alert('Thank you ' + nameOfUser);
-  var userEmail = prompt('What is your email?');
 }else {
   alert('OK - Enjoy my site');
 }
+}
+answerEmail();
+console.log(userEmailAnswer);
 
 // Question 4 Are you a fellow Codefellower? Y/n  Incomplete
 
@@ -61,14 +64,14 @@ if (userEmailAnswer === 'y' || userEmailAnswer ==='Y'){
 
 // Question 5 Are you color blind? y/n  if yes change the CSS to color blindness css 
 
-var colorBlindAnswer = prompt('Are you color blind (y/n)?');
+/*var colorBlindAnswer = prompt('Are you color blind (y/n)?');
 
 if (colorBlindAnswer === 'y' || colorBlindAnswer === 'Y'){
   alert('I\'ll change my website for you');
   alert('I need to find this code to do this - Enjoy');
 } else {
   alert('You may continue with current settings.');
-}
+}*/
 
 
 // •	Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
@@ -120,7 +123,7 @@ if (colorBlindAnswer === 'y' || colorBlindAnswer === 'Y'){
 
 
 
-
+/*
 switch(pickNumber){
   case '1':
     alert('Try again later');
@@ -139,6 +142,6 @@ switch(pickNumber){
     break;
 
 }
-
+*/
 
 
