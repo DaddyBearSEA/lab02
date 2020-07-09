@@ -35,6 +35,14 @@ h4{
   text-align: left;
 }
 
+ul {
+	list-style: square;
+}
+
+ol {
+  list-style-type: decimal; /*needs fixing */
+}
+
 /* Begin Header */
 
 header {
