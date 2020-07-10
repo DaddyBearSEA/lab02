@@ -2,17 +2,29 @@
 // 'use strict'
 
 
-// /* Question 1 Ask the User's Name  nameOfUser */
+// Ask for the User's name
 
-//  var nameOfUser = prompt('What is your name?');
-//   alert('Hello! ' + nameOfUser + " Welcome to my site!" );
-//   console.log ('Name of User:  ' + nameOfUser);
-
-
+ var nameOfUser = prompt('What is your name?');
+  alert('Hello! ' + nameOfUser + " Welcome to my site!" );
+  console.log ('Name of User:  ' + nameOfUser);
 
 
+/* Question 1 Ask the User's Name  nameOfUser  does michael like to travel */
+// prompt user a question does michael like to travel
+// convert answer to lower case
+// compare answer with appropriate response
 
-// //  Question 2 Hello nameofUser Are you a potential employer?  y/n
+var answerTravel = prompt(nameOfUser + '  Does Michael like to travel? (y/n)').toLowerCase(); 
+  if (answerTravel === 'y'){
+    alert('You are correct!');
+  console.log('Travel Answer:' + answerTravel);
+} else if (answerTravel === 'n') {
+  alert('He LOVES to TRAVEL!');
+  console.log(answerTravel);
+}
+
+
+//  Question 2 Hello nameofUser Are you a potential employer?  y/n  GOOD CODE
 
 // var employerAnswer = prompt('Are you a potential employer? (y/n)').toLowerCase();
 // //  console.log('should be lower case?  ' + employerAnswer);
@@ -33,7 +45,7 @@
 // isEmployer();
 // console.log(employerAnswer);
 
-// //  Question 3 May I have your email? y/n
+//  Question 3 May I have your email? y/n - GOOD CODE
 
 // var userEmailAnswer = prompt('May I have your email (y/n)?').toLowerCase();
 
@@ -47,7 +59,7 @@
 // answerEmail();
 // console.log(userEmailAnswer);
 
-// Question 4 Are you a fellow Codefellower? Y/n  Incomplete
+// Question 4 Has Michael lived in New Orleans? Y/n  Incomplete
 
 // var fellowCodeBuddy = prompt('Are you a fellow Codefellower? (y/n)');
 
@@ -62,17 +74,17 @@
 
 
 
-// Question 5 Are you color blind? y/n  if yes change the CSS to color blindness css 
+// Question 5 Am I color blind? y/n  if yes change the CSS to color blindness css   - Good Code - still need CSS for Colorblindness
 
-// var colorBlindAnswer = prompt('Are you color blind (y/n)?');
+// var colorBlindAnswer = prompt('Is Michael color blind (y/n)?').toLowerCase();
 
 // function colorBlindAsk() {
-// if (colorBlindAnswer === 'y' || colorBlindAnswer === 'Y'){
-//   alert('I\'ll change my website for you');
-//   alert('I need to find this code to do this - Enjoy');
-// } else {
-//   alert('You may continue with current settings.');
-// }
+//   if (colorBlindAnswer === 'y') {
+//     alert('I\'ll change my website for you');
+//     alert('I need to find this code to do this - Enjoy');
+//   } else {
+//     alert('You may continue with current settings.');
+//   }
 // }
 // colorBlindAsk();
 // console.log(colorBlindAnswer);
@@ -85,21 +97,23 @@
 // you have a number set to 4.  You ask a prompt for a number between 1 and 5
 // you cycle through using a counter 5 times if needed
 
-  
-var correctAnswer = '4'
-var pickNumber = prompt('Pick a number between 1- 5');
-console.log(correctAnswer)
 
-function numberPicking() {
-if (pickNumber === correctAnswer){
-  alert('Yes you are correct');
-  console.log(pickNumber)
-}  else if (pickNumber !== correctAnswer){
-  alert('No you are wrong!');
-  console.log (pickNumber);
-}
-}
-numberPicking();
+// This code still needs help and coding 
+
+// var correctAnswer = '4'
+// var pickNumber = prompt('Pick a number between 1- 5');
+// console.log(correctAnswer)
+
+// function numberPicking() {
+// if (pickNumber === correctAnswer){
+//   alert('Yes you are correct');
+//   console.log(pickNumber)
+// }  else if (pickNumber !== correctAnswer){
+//   alert('No you are wrong!');
+//   console.log (pickNumber);
+// }
+// }
+// numberPicking();
 
 // switch(pickNumber){
 //   case '1':
