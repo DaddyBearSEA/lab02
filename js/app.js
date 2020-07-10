@@ -12,7 +12,7 @@
 /* Question 1 Ask the User's Name  nameOfUser  does michael like to travel */
 // prompt user a question does michael like to travel
 // convert answer to lower case
-// compare answer with appropriate response
+// compare answer with appropriate response  = CODE IS GOOD / Need to add a Function Wrapper around it for today later
 
 var answerTravel = prompt(nameOfUser + '  Does Michael like to travel? (y/n)').toLowerCase(); 
   if (answerTravel === 'y'){
@@ -61,16 +61,17 @@ var answerTravel = prompt(nameOfUser + '  Does Michael like to travel? (y/n)').t
 
 // Question 4 Has Michael lived in New Orleans? Y/n  Incomplete
 
-// var fellowCodeBuddy = prompt('Are you a fellow Codefellower? (y/n)');
+var livedNewOrleans = prompt('Did Michael live in New Orleans? (y/n)').toLowerCase();
 
-// if (fellowCodeBuddy === 'y' || fellowCodeBuddy === 'Y'){
-//   alert('Hi ' + nameOfUser + '! Make sure you leave feedback in slack for me.');
-// }else (fellowCodeBuddy === 'n' || fellowCodeBuddy === 'N'); {
-//   alert('See you Later! You have nothing to see here!');
-//   window.location.replace('https://tenor.com/view/futurama-hypnotoad-hypnotic-hypno-all-hail-hypnotoad-gif-3690710');
+if (livedNewOrleans === 'y') {
+  alert('Correct - he lived there for 7 Mardi Gras');
+  console.log(livedNewOrleans);
+} else if (livedNewOrleans === 'n') { 
+  alert('No Mardi Gras Beads for you!');
+  console.log(livedNewOrleans);
+}
 
-// }
- 
+
 
 
 
