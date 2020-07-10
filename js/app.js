@@ -26,40 +26,40 @@ var answerTravel = prompt(nameOfUser + '  Does Michael like to travel? (y/n)').t
 
 //  Question 2 Hello nameofUser Are you a potential employer?  y/n  GOOD CODE
 
-// var employerAnswer = prompt('Are you a potential employer? (y/n)').toLowerCase();
-// //  console.log('should be lower case?  ' + employerAnswer);
-// function isEmployer() {
-//   while (employerAnswer ==='y' && employerAnswer ==='n');{
-//     console.log(employerAnswer);
-//     //employerAnswer = ('Please answer with a y or n lowercase!');
-//   }
+var employerAnswer = prompt('Are you a potential employer? (y/n)').toLowerCase();
+//  console.log('should be lower case?  ' + employerAnswer);
+function isEmployer() {
+  while (employerAnswer ==='y' && employerAnswer ==='n');{
+    console.log(employerAnswer);
+    //employerAnswer = ('Please answer with a y or n lowercase!');
+  }
 
-//   if (employerAnswer === 'y') {
-//     alert('Welcome to my site!');
-//     console.log(employerAnswer);
-//   }else if (employerAnswer === 'n');{
-//     alert('What can I help you with?');
-//     console.log(employerAnswer);
-//   }
-// }
-// isEmployer();
-// console.log(employerAnswer);
+  if (employerAnswer === 'y') {
+    alert('Welcome to my site!');
+    console.log(employerAnswer);
+  }else if (employerAnswer === 'n');{
+    alert('What can I help you with?');
+    console.log(employerAnswer);
+  }
+}
+isEmployer();
+console.log(employerAnswer);
 
 //  Question 3 May I have your email? y/n - GOOD CODE
 
-// var userEmailAnswer = prompt('May I have your email (y/n)?').toLowerCase();
+var userEmailAnswer = prompt('May I have your email (y/n)?').toLowerCase();
 
-// function answerEmail() {
-//   if (userEmailAnswer === 'y') {
-//   alert('Thank you ' + nameOfUser);
-// }else {
-//   alert('OK - Enjoy my site');
-// }
-// }
-// answerEmail();
-// console.log(userEmailAnswer);
+function answerEmail() {
+  if (userEmailAnswer === 'y') {
+  alert('Thank you ' + nameOfUser);
+}else {
+  alert('OK - Enjoy my site');
+}
+}
+answerEmail();
+console.log(userEmailAnswer);
 
-// Question 4 Has Michael lived in New Orleans? Y/n  Incomplete
+// Question 4 Has Michael lived in New Orleans? Y/n  Good Code - need to add Function Wrapper
 
 var livedNewOrleans = prompt('Did Michael live in New Orleans? (y/n)').toLowerCase();
 
@@ -77,18 +77,20 @@ if (livedNewOrleans === 'y') {
 
 // Question 5 Am I color blind? y/n  if yes change the CSS to color blindness css   - Good Code - still need CSS for Colorblindness
 
-// var colorBlindAnswer = prompt('Is Michael color blind (y/n)?').toLowerCase();
+var colorBlindAnswer = prompt('Is Michael color blind (y/n)?').toLowerCase();
 
-// function colorBlindAsk() {
-//   if (colorBlindAnswer === 'y') {
-//     alert('I\'ll change my website for you');
-//     alert('I need to find this code to do this - Enjoy');
-//   } else {
-//     alert('You may continue with current settings.');
-//   }
-// }
-// colorBlindAsk();
-// console.log(colorBlindAnswer);
+function colorBlindAsk() {
+  if (colorBlindAnswer === 'y') {
+    alert('I\'ll change my website for you');
+    alert('I need to find this code to do this - Enjoy');
+  } else {
+    alert('You may continue with current settings.');
+  }
+}
+colorBlindAsk();
+console.log(colorBlindAnswer);
+
+
 
 // •	Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
 // •	Indicates through an alert if the guess is “too high” or “too low”.
