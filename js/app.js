@@ -137,24 +137,25 @@
   // ask What's michael's favorite city to visit?
   // loop through 6 Times until he gets the question correct. if he gets the question correct, stop asking
 
+function pickMichaelsFavCity() {
+  var citiesILike = ['Vegas', 'Berlin', 'Amsterdam', 'Paris', 'Seattle', 'Nawlins', 'Boston', 'Bar Harbor'];
+  var numberOfTrys = 0
 
-var citiesILike = ['Vegas', 'Berlin', 'Amsterdam', 'Paris', 'Seattle', 'Nawlins', 'Boston', 'Bar Harbor' ];
-var numberOfTrys = 0
+  for (var i = 0; i < 6; i++) {
 
-for (var i = 0; i < 6; i++) {
+    var favoriteCityOfAll = prompt('What is Michaels favorite city of all time? Vegas, Berlin, Amsterdam, Paris, Seattle, Nawlins, Boston, Bar Harbor');
+    var numberOfTrys = (numberOfTrys + 1);
 
-  var favoriteCityOfAll = prompt('What is Michaels favorite city of all time? Vegas, Berlin, Amsterdam, Paris, Seattle, Nawlins, Boston, Bar Harbor');
-  
-  numberOfTrys = (numberOfTrys + 1);
-  
-  console.log(favoriteCityOfAll + 'and number of trys is ' + numberOfTrys);
 
-  if (favoriteCityOfAll === citiesILike[1]) {
-    alert('You are correct!' + ' You got it in ' + numberOfTrys + ' !!!')
-    break;
-    
-  } else if (favoriteCityOfAll !== citiesILike[1]) {
-    alert('Try again - You can do Better?')
-    console.log(favoriteCityOfAll)
+
+    if (favoriteCityOfAll === citiesILike[1]) {
+      alert('You are correct!' + ' You got it in ' + numberOfTrys + ' trys !!!')
+      break;
+
+    } else if (favoriteCityOfAll !== citiesILike[1]) {
+      alert('Try again - You can do Better?')
+      console.log(favoriteCityOfAll)
+    }
   }
 }
+pickMichaelsFavCity()
