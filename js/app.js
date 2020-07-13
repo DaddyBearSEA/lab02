@@ -7,47 +7,37 @@
  var nameOfUser = prompt('What is your name?');
   alert('Hello! ' + nameOfUser + " Welcome to my site!" );
 
-
-
 // /* Question 1 Ask the User's Name  nameOfUser  does michael like to travel */
-
 
 var answerTravel = prompt(nameOfUser + '  Does Michael like to travel? (y/n)').toLowerCase(); 
 
 function likes2Travel() {
   if (answerTravel === 'y') {
     alert('You are correct!');
-    console.log('Travel Answer:' + answerTravel);
   } else if (answerTravel === 'n') {
     alert('He LOVES to TRAVEL!');
-    console.log(answerTravel);
+
   }
 }
 likes2Travel();
 
-// //  Question 2 Hello nameofUser Are you a potential employer?  y/n  GOOD CODE
+//  Question 2 Hello nameofUser Are you a potential employer? 
 
 var employerAnswer = prompt('Are you a potential employer? (y/n)').toLowerCase();
 
 function isEmployer() {
 
-  while (employerAnswer ==='y' && employerAnswer ==='n');{
-    console.log(employerAnswer);
-    //employerAnswer = ('Please answer with a y or n lowercase!');
+  while (employerAnswer === 'y' && employerAnswer === 'n'); {
   }
-
   if (employerAnswer === 'y') {
     alert('Welcome to my site!');
-    console.log(employerAnswer);
-  }else if (employerAnswer === 'n');{
+  } else if (employerAnswer === 'n'); {
     alert('What can I help you with?');
-    console.log(employerAnswer);
   }
 }
 isEmployer();
-console.log(employerAnswer);
 
-// //  Question 3 May I have your email? y/n - GOOD CODE
+// //  Question 3 May I have your email? y/n 
 
 var userEmailAnswer = prompt('May I have your email (y/n)?').toLowerCase();
 
@@ -59,29 +49,21 @@ function answerEmail() {
   }
 }
 answerEmail();
-console.log(userEmailAnswer);
 
-// // Question 4 Has Michael lived in New Orleans? Y/n  Good Code - need to add Function Wrapper
+// // Question 4 Has Michael lived in New Orleans? Y/n 
 
 var livedNewOrleans = prompt('Did Michael live in New Orleans? (y/n)').toLowerCase();
 
 function livedNOrleans() {
   if (livedNewOrleans === 'y') {
     alert('Correct - he lived there for 7 Mardi Gras');
-    console.log(livedNewOrleans);
   } else if (livedNewOrleans === 'n') {
     alert('No Mardi Gras Beads for you!');
-    console.log(livedNewOrleans);
   }
 }
-
 livedNOrleans();
 
-
-
-// // Question 5 Am I color blind? y/n  if yes change the CSS to color blindness css   - Good Code - still need CSS for Colorblindness
-
-
+// // Question 5 Am I color blind? y/n  if yes change the CSS to color blindness css 
 
 function colorBlindAsk() {
 
@@ -103,33 +85,23 @@ colorBlindAsk();
 // •	It should give the user exactly four opportunities to get the correct answer.
 // •	After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
 
-// you have a number set to 4.  You ask a prompt for a number between 1 and 5
-// you cycle through using a counter 5 times if needed - Maybe add a code saying you maxed out guesses?
-
 function numberPicking() {
 
   var correctAnswer = '4'
-
-  console.log(correctAnswer)
-
   for (var i = 0; i < 3; i++) {
     var pickNumber = prompt(nameOfUser + ' - Lets play: Pick a number between 1- 5');
 
-    console.log('pass thru code ' + i);
-
     if (pickNumber > correctAnswer) {
       alert('Yes you are too high, Try Again');
-      console.log(correctAnswer + ' is to ' + pickNumber);
+
     } else if (pickNumber < correctAnswer) {
       alert('No you are too low! Try again');
-      console.log(correctAnswer + 'is to ' + pickNumber);
+
     } else if (pickNumber == correctAnswer) {
       alert('You are Correct');
       break;
-      console.log(correctAnswer + 'is to ' + pickNumber);
     }
   }
-
 }
 
 numberPicking()
@@ -140,20 +112,14 @@ numberPicking()
   // •	The guesses will end once the user guesses a correct answer or they run out of attempts.
   // •	Display all the possible correct answers to the user.
   // •	Consider using a loop of some sort for this question.
-  // setup an Array of all the Favorite Citys in his Top 10
-  // ask What's michael's favorite city to visit?
-  // loop through 6 Times until he gets the question correct. if he gets the question correct, stop asking
 
 function pickMichaelsFavCity() {
   var citiesILike = ['Vegas', 'Berlin', 'Amsterdam', 'Paris', 'Seattle', 'Nawlins', 'Boston', 'Bar Harbor'];
   var numberOfTrys = 0
 
   for (var i = 0; i < 6; i++) {
-
     var favoriteCityOfAll = prompt('What is Michaels favorite city of all time? Vegas, Berlin, Amsterdam, Paris, Seattle, Nawlins, Boston, Bar Harbor');
     var numberOfTrys = (numberOfTrys + 1);
-
-
 
     if (favoriteCityOfAll === citiesILike[1]) {
       alert('You are correct!' + ' You got it in ' + numberOfTrys + ' trys !!!')
