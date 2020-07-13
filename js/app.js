@@ -1,18 +1,16 @@
 // // this is my Javascript for Lab02
-// 'use strict'
+'use strict'
 
 
 // Ask for the User's name
 
  var nameOfUser = prompt('What is your name?');
   alert('Hello! ' + nameOfUser + " Welcome to my site!" );
-  console.log ('Name of User:  ' + nameOfUser);
+
 
 
 // /* Question 1 Ask the User's Name  nameOfUser  does michael like to travel */
-// // prompt user a question does michael like to travel
-// // convert answer to lower case
-// // compare answer with appropriate response  = CODE IS GOOD / Need to add a Function Wrapper around it for today later
+
 
 var answerTravel = prompt(nameOfUser + '  Does Michael like to travel? (y/n)').toLowerCase(); 
 
@@ -76,8 +74,8 @@ function livedNOrleans() {
     console.log(livedNewOrleans);
   }
 }
-livedNOrleans();
 
+livedNOrleans();
 
 
 
@@ -96,8 +94,8 @@ function colorBlindAsk() {
     alert('You may continue with current settings.');
   }
 }
-colorBlindAsk();
 
+colorBlindAsk();
 
 //Question 6 
 // •	Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
@@ -133,8 +131,8 @@ function numberPicking() {
   }
 
 }
+
 numberPicking()
-  
   
   
   // •	Add a 7th question that has multiple possible correct answers that are stored in an array.
@@ -168,3 +166,13 @@ function pickMichaelsFavCity() {
   }
 }
 pickMichaelsFavCity()
+
+
+
+
+
+
+
+
+
+

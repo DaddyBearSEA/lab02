@@ -1,15 +1,17 @@
 /* this is my personal CSS */
 /* I'm certainly not done playing and tweaking */
+  
 
-
-/* html {
-  background-image: url("img/banff.jpg");
-} */
+html {
+ 
+}
 
 body{
   max-width: 960px;
   margin: auto;
-  background-color: skyblue;
+  /* background-color: skyblue; */
+  /* background-image: url("img/salemgargoyle.png"); */
+  /* background-image: image('img/banff.jpg'); */
  
   /* outline: dotted;
   outline-color: blue;
@@ -50,7 +52,7 @@ header {
   outline-style: dashed; */
   float: left;
   padding: 25px;
-  background-color: linen;
+  /* background-color: linen; */
   border-radius: 25px;
 }
 header > div{
@@ -98,27 +100,27 @@ p{
   color: rgb(116, 93, 138);
   float: left;
   padding: 25px;
-  background-color: linen;
+  /* background-color: linen; */
   border-radius: 25px;
 
 }
 
 .experience{
   color: blueviolet;
-  background-color: burlywood;
+  /* background-color: burlywood; */
   float: left;
   padding: 25px;
-  background-color: linen;
+  /* background-color: linen; */
   border-radius: 25px;
 }
 
 
 .goals {
   color: black;
-  background-color: tomato;
+  /* background-color: tomato; */
   float: left;
   padding: 25px;
-  background-color: linen;
+  /* background-color: linen; */
   border-radius: 25px;
  
 
